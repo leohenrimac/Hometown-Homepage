@@ -80,15 +80,15 @@ body {
 #activity-title {
     background-color: #E2E1E6ff;
     padding: 4px 8px 2px 8px;
-    margin: 0;
+    margin: 32px 0;
 }
 
 #activity-cards {
     display: flex;
     justify-content:space-evenly;
     align-items: start;
-    height: 300px;
-    margin-top: 20px;
+    height: 354px;
+    margin: 20px 0px;
 }
 
 .activity {
@@ -107,7 +107,7 @@ body {
 
 #guide-section {
     background-color: #E2E1E6ff;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,16 +147,16 @@ body {
 #guide-title {
     background: white;
     padding: 4px 110px 2px 110px;
+    margin: 50px 0px;
 }
 
 a {
-    background-color: #9C6834ff;
-    color: rgb(2, 20, 82);
+    background-color: rgba(156, 104, 52, 0.7);
+    margin-top: 40px;
     padding: 4px 8px;
     border-radius: 3px;
 }
 
 a:hover {
-    background-color: rgb(2, 20, 82);
-    color: #9C6834ff;
+    background-color: #9C6834ff;
 }
